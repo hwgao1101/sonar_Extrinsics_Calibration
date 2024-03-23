@@ -17,6 +17,6 @@ There are four reflective spheres on the calibration board, and the motion captu
 5. Based on the position transformation relationship between the reflective ball in sonar image and the reflective ball in moving capture system, the transformation matrix is solved numerically by least square optimization, which is in [MultiimageCalibration.py](../src/MultiimageCalibration.py).
 6. According to the obtained transformation matrix, the re-projection verification is carried out.
 
-![Example of reprojection results](../final_biaoding/reProjectionImage/0-19.562288570933188.png)
+![Example of reprojection results](./final_biaoding/reProjectionImage/0-19.562288570933188.png)
 
 > The collected data is stored on [Google Cloud Disk](https://drive.google.com/file/d/1LjyENhdwCi62JH226Mk2wNh8gRYH6XEl/view?usp=sharing).
